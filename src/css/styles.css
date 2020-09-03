@@ -1,0 +1,55 @@
+body {
+  background: #EAE3CB;
+}
+ul {
+  margin: 0 auto;
+  margin-top:50px;
+  padding: 0;
+  width: 310px;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+
+}
+ul li img{
+  clip:rect(10px,90px,90px,10px);
+  transition: .5s;
+}
+ul li img:hover{
+  clip:rect(0px,100px,100px,0px);
+}
+
+.yellow{
+  background: yellow;
+}
+.orange{
+    background: orange;
+}
+.purple{
+    background: purple;
+}
+.blue{
+    background: blue;
+}
+.pink{
+    background: pink;
+}
+.green{
+    background: green;
+}
+.lightgreen{
+    background: lightgreen;
+}
+.gray{
+    background:  grey;
+}
+.red{
+    background: red;
+}
+h2{
+  text-align: center;
+}
